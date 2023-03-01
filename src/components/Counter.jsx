@@ -25,8 +25,7 @@ const Counter = () => {
                     numberToChangeBy: action.newNum
                 }   
         }
-        return state;
-        //throw Error('Unknown action: ' + action.type);
+        throw Error('Unknown action: ' + action.type);
     }
     const [state, dispatch] = useReducer(reducer, initialState);
 
