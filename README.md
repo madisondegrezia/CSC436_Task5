@@ -8,9 +8,8 @@
 Remove the useState usage and refactor it to handle all of the components state through a useReducer hook
 
 The state should include:
-
--the current count value
--the “Number to Increment/Decrement by”
+* the current count value
+* the “Number to Increment/Decrement by”
 The useReducer hook should be used to update the state whenever the buttons are clicked along with the updating of the “Number to Increment/Decrement by” value.
 
 ## Screenshots
